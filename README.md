@@ -6,21 +6,21 @@ pip install linkedin_scraper
 
 
 ## Setup
-First, you must set your chromedriver location by
+First, you must set up your chromedriver location
 
 follow the link to install chromedriver for ubuntu
 
-ubuntu:
+### ubuntu:
 
 https://skolo.online/documents/webscrapping/
 
-Macos:
+### Macos:
 
 https://www.swtestacademy.com/install-chrome-driver-on-mac/
 
 verify for macos since it not verified by macos
 
-$ xattr -d com.apple.quarantine chromedrive
+    $ xattr -d com.apple.quarantine chromedrive
 
 or
 follow this link
@@ -39,9 +39,7 @@ Finally:
 
 run the python code:
 
-
-
-$ python main.py
+    $ python main.py
 
 it will prompt for to ask for url 
 
